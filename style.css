@@ -1,0 +1,414 @@
+/* font awesome google link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* end the font link */
+
+/* start fun */
+/*-----------------------
+  if you gon first h1
+  it can change his color
+------------------------- */
+/* button animation by css */
+.btn button:hover {
+  background-color: #6c6c6c;
+  width: 50%;
+  transition: 2s;
+  transition-timing-function: 1s ease-in-out;
+}
+.bttn button:hover {
+  background-color: blueviolet;
+  border-radius: 20px;
+  width: 70%;
+  transition: 2s;
+  transition-timing-function: 2s ease-in-out;
+}
+.fbttn button:hover {
+  background-color: goldenrod;
+  border-radius: 20px;
+  box-shadow: 5px 10px 18px #888888;
+  width: 20%;
+  transition: 2s;
+  transition-timing-function: 2s ease-in-out;
+}
+/*-----------------------------
+  if you give the mouse pointer
+   on image then it can zoom
+  ------------------------------*/
+.box img:hover {
+  transform: scale(1.2);
+  transition: 1s linear;
+}
+.box h2:hover {
+  color: indigo;
+  font-size: 35px;
+  text-align: center;
+  transform: scale(1.1);
+  transition: 0.5s linear;
+}
+
+/*-----------------------------
+  if you give the mouse pointer
+   on icons then it can zoom
+  ------------------------------*/
+.icons i:hover {
+  transform: scale(2);
+}
+
+/* end of the fun */
+
+/* css style start */
+body {
+  margin: 0;
+  top: 0;
+}
+/* header style css */
+.container {
+  background-color: #FF6666;
+  width: 100%;
+  height: 600px;
+}
+.first_heading {
+  color: white;
+  width: 480px;
+  height: 230px;
+}
+.banner {
+  width: 550px;
+  height: 430px;
+}
+
+.text {
+  float: left;
+}
+.text h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  width: 490px;
+  height: 220px;
+  font-size: 60px;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+.btn button {
+  background-color: #e02c6d;
+  width: 150px;
+  height: 45px;
+  color: aliceblue;
+  font-size: 18px;
+  position: relative;
+  margin-left: 200px;
+  top: 10px;
+  cursor: pointer;
+}
+.btn a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.banner {
+  float: left;
+  margin-top: 100px;
+  margin-right: 200px;
+  width: 600px;
+  height: 450px;
+}
+/* header style end */
+
+/* -----player detais css------ */
+
+.grid_func {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.box {
+  padding: 15px;
+  width: 65%;
+  height: 85%;
+  margin-left: 14%;
+  margin-top: 35px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.box img {
+  width: 330px;
+  height: 274px;
+}
+.box h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+}
+.box article {
+  color: #666464;
+}
+/* player details css done */
+
+/* third section css start */
+
+.third_box {
+  flex-direction: column;
+}
+.third_box h1 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 100px;
+  margin-left: 125px;
+  margin-bottom: -180px;
+  width: 700;
+  font-size: 52px;
+  line-height: 60px;
+}
+.third_pic img {
+  position: absolute;
+  width: 580px;
+  height: 470px;
+  margin-left: 240px;
+  margin-top: 20px;
+}
+.third_paragraph {
+  font-family: "Poppins", sans-serif;
+  color: #6c6c6c;
+  margin-left: 125px;
+  margin-top: 200px;
+  font-size: 16px;
+  float: left;
+}
+.bttn button {
+  background-color: #e02c6d;
+  width: 150px;
+  height: 45px;
+  color: aliceblue;
+  font-size: 18px;
+  position: relative;
+  margin-left: 0;
+  top: 0px;
+  cursor: pointer;
+}
+.bttn a {
+  text-decoration: none;
+  color: aliceblue;
+}
+/* thired section style css end */
+.bonous_heading {
+  margin-top: 700px;
+  margin-left: 800px;
+  font-size: 38px;
+  font-family: cursive;
+}
+.froth_paragraph {
+  font-family: "Poppins", sans-serif;
+  color: #6c6c6c;
+  margin-left: 800px;
+  margin-top: -60px;
+  font-size: 16px;
+  float: left;
+}
+.fbttn button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: cursive;
+}
+.fbttn button {
+  color: aliceblue;
+  background-color: #e02c6d;
+  margin-left: -418px;
+  margin-top: 60px;
+  width: 150px;
+  height: 45px;
+}
+.froth_image img {
+  position: absolute;
+  width: 580px;
+  height: 470px;
+  margin-left: 120px;
+  margin-top: -400px;
+}
+
+/* footer style css start */
+/* logo design */
+.logo img {
+  margin-left: 500px;
+  margin-bottom: -250px;
+  width: 485px;
+  height: 110px;
+}
+/* logo design end */
+.icons i {
+  margin-left: 1%;
+  color: gray;
+  border-radius: 50%;
+}
+.icons {
+  margin-left: 46%;
+  margin-top: 250px;
+}
+.copy_right {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+/* end of the web page css style */
+
+
+
+
+/* media quary for phone  */
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+
+    .container{
+      background-color: blueviolet;
+      width: 100%;
+      height: 1000px;
+    }
+    .text h1{
+      font-size: 50px;
+      margin-left: 20px;
+    }
+    .text .btn{
+      margin-left: -180px;
+      margin-top: -40px;
+    }
+    .pic img{
+      width: 100%;
+    }
+    .grid_func{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .box img{
+      width: 100%;
+    }
+    .third_box img{
+      width: 100%;
+      margin-top: 500px;
+      margin-left: -414px;
+    }
+    .third_box h1{
+      font-size: 35px;
+      text-align: center;
+      margin-left: 10px;
+    }
+    .third_paragraph{
+      text-align: center;
+      margin-left: 5px;
+    }
+    .froth_section h1{
+      font-size: 35px;
+      margin-left: -780px;
+      margin-top: 1000px;
+    }
+    .froth_section article{
+      margin-left: -790px;
+      font-size: 14px;
+      margin-top: 100px;
+    }
+    .froth_section button{
+      margin-left: 40px;
+    }
+    .froth_section img{
+      width: 414px;
+      margin-top: 60px;
+      margin-left: 0;
+    }
+    .logo{
+      margin-left: -560px;
+      margin-top: 450px;
+    }
+    .footer img{
+      width: 48%;
+    }
+}
+
+
+
+/* media quary for iped,teb,monitor */
+@media only screen 
+  and (min-device-width: 758px) 
+  and (max-device-width: 1024px) {
+    .container{
+      background-color: blueviolet;
+      width: 100%;
+      height: 1350px;
+    }
+    .container button{
+      margin-top: 300px;
+      margin-left: 36%;
+    }
+    .pic img{
+      margin-top: 100px;
+    }
+    .text h1{
+            font-size: 90px;
+      margin-left: 100px;
+    }
+    .text .btn{
+      margin-left: -180px;
+      margin-top: -40px;
+    }
+    .pic img{
+      width: 100%;
+    }
+    .grid_func{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .box img{
+      width: 100%;
+    }
+    .third_box img{
+      width: 100%;
+      margin-top: 950px;
+      margin-left: -810px;
+    }
+    .third_box h1{
+      font-size: 65px;
+      text-align: center;
+      margin-left: 10px;
+    }
+    .third_paragraph{
+      font-size: 40px;
+      margin-left: 95px;
+    }
+    .third_box button{
+      margin-left: 25%;
+      margin-top: 30px;
+      width: 250px;
+      font-size: 30px;
+      height: 100px;
+    }
+    .froth_section h1{
+      text-align: center;
+      font-size: 65px;
+      margin-left: -780px;
+      margin-top: 1440px;
+    }
+    .froth_section article{
+      text-align: center;
+      margin-left: -790px;
+      font-size: 34px;
+      margin-top: 50px;
+    }
+    .froth_section button{
+      text-align: center;
+      margin-left: 200px;
+      font-size: 50px;
+      width: 50%;
+      height: 100px;
+    }
+    .froth_section img{
+      width: 100%;
+      margin-top: 60px;
+      margin-left: 10px;
+    }
+    .logo{
+      margin-left: -460px;
+      margin-top: 450px;
+    }
+    .footer img{
+      width: 48%;
+    }
+    .copy_right{
+      font-size: 2em;
+    }
+}
